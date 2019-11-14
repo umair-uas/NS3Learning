@@ -295,4 +295,4 @@ umair@umair-VM:~/work/ns3module/ns-3-allinone/ns-3.28$
 
 [ns3 Installation](https://www.nsnam.org/wiki/Installation#Installation)
 
-  Link to this repository  on [**GitHub**] (https://github.com/umairahmedshah/NS3Learning.git)
+  GitHub repository:  **[GitHub]**(https://github.com/umairahmedshah/NS3Learning.git)
