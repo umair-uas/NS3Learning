@@ -1,10 +1,5 @@
-#### ns3 installation 
+## ns3 installation 
 
- Steps taken  from [https://www.nsnam.org/docs/manual/html/new-modules.html](https://www.nsnam.org/docs/manual/html/new-modules.html)
-and from 
- [https://www.nsnam.org/wiki/Installation#Installation]([https://www.nsnam.org/wiki/Installation#Installation)
-
-Link to this repository  on **GitHub** [https://github.com/umairahmedshah/NS3Learning.git](https://github.com/umairahmedshah/NS3Learning.git)
 
 ## installation platform 
 ns3 is installed on Ubuntu 16.04 
@@ -298,3 +293,9 @@ umair@umair-VM:~/work/ns3module/ns-3-allinone/ns-3.28$
 ```
 This completes the installation of ns3 .
 
+References:
+[https://www.nsnam.org/docs/manual/html/new-modules.html](https://www.nsnam.org/docs/manual/html/new-modules.html) 
+
+[https://www.nsnam.org/wiki/Installation#Installation]([https://www.nsnam.org/wiki/Installation#Installation)
+
+Link to this repository  on **GitHub** [https://github.com/umairahmedshah/NS3Learning.git](https://github.com/umairahmedshah/NS3Learning.git)
