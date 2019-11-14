@@ -1,11 +1,11 @@
-## ns3 installation 
+## ns3 Installation 
 
+### installation platform 
+ns3 is installed on **Ubuntu 16.04** 
 
-## installation platform 
-ns3 is installed on Ubuntu 16.04 
 ## Prerequisites for ns3 installation
 
-on Ubuntu 16.05 gcc and g++ are already installed ,we can check the version 
+On Ubuntu 16.04 gcc and g++ are already installed ,we can check the version 
 ```sh 
 umair@umair-VM:~/work/ns3module$ g++ --version 
 g++ (Ubuntu 5.4.0-6ubuntu1~16.04.9) 5.4.0 20160609
@@ -36,7 +36,7 @@ drwxrwxr-x 4 umair umair 4,0K Jun 27 09:26 .hg
 -rw-rw-r-- 1 umair umair  924 Jun 27 09:26 README
 -rw-rw-r-- 1 umair umair  561 Jun 27 09:26 util.py
 ```
-Now we can build the ns3 version of our choice with the help of ** download.py** and  **build.py** python scripts.Here we selected ns-3.28 .
+Now we can build the ns3 version of our choice with the help of **download.py** and  **build.py** python scripts.Here we selected ns-3.28.
 
 ```sh 
 umair@umair-VM:~/work/ns3module/ns-3-allinone$ ./download.py -n ns-3.28
@@ -104,9 +104,6 @@ added 402 changesets with 873 changes to 63 files
 updating to branch default
 45 files updated, 0 files merged, 0 files removed, 0 files unresolved
 ```
-
-
-
 
 ```
 ## building with python 
@@ -190,7 +187,7 @@ brite                     click                     openflow
 
 Leaving directory `./ns-3.28'
 ```
-### Important 
+:heavy_exclamation_mark: Important 
 Once the ns3 has been build ,we usually not use ns3-allinone scripts anymore.We interact with `waf` scripts and we run it under [+ns-3.28+] directory rather than [+ns-3-allinone+] directory.
 
 ## Configuring with Waf
@@ -249,7 +246,7 @@ Waf: Entering directory `/home/umair/work/ns3module/ns-3-allinone/ns-3.28/build'
 
 ===============
 ```
-We will see the list of modules built successfully and ones which are not. 
+:mag: We will see the list of modules built successfully and ones which are not. 
 ```sh 
 Build commands will be stored in build/compile_commands.json
 'build' finished successfully (5m29.192s)
@@ -291,11 +288,11 @@ List of SKIPped tests:
     nsc-tcp-loss
 umair@umair-VM:~/work/ns3module/ns-3-allinone/ns-3.28$ 
 ```
-This completes the installation of ns3 .
+:white_check_mark: This completes the installation of ns3 .
 
 References:
 [https://www.nsnam.org/docs/manual/html/new-modules.html](https://www.nsnam.org/docs/manual/html/new-modules.html) 
 
-[https://www.nsnam.org/wiki/Installation#Installation]([https://www.nsnam.org/wiki/Installation#Installation)
+[ns3 Installation](https://www.nsnam.org/wiki/Installation#Installation)
 
 Link to this repository  on **GitHub** [https://github.com/umairahmedshah/NS3Learning.git](https://github.com/umairahmedshah/NS3Learning.git)
